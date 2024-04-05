@@ -1,0 +1,5 @@
+1) User can search through Contact
+2) User can add Contact
+3) User can update Contact
+4) User can delete Contact
+5) User can merge duplicate Contact
