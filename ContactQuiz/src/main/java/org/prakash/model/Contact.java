@@ -19,6 +19,16 @@ public class Contact {
         this.lastName = lastName;
         this.companyName = companyName;
         this.jobTitle = jobTitle;
+        this.phoneList = phoneList;
+        this.emailAddressList = emailAddressList;
+    }
+
+    public Contact(String id, String firstName, String lastName, String companyName, String jobTitle) {
+        this.id = id;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.companyName = companyName;
+        this.jobTitle = jobTitle;
         this.phoneList = new ArrayList<>();
         this.emailAddressList = new ArrayList<>();
     }
