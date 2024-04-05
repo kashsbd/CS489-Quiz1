@@ -33,7 +33,7 @@ public class Main {
 
         List<Contact> sortedContacts = contacts.stream().sorted(Comparator.comparing(Contact::getLastName)).toList();
 
-        //Print a contact with john format
+        //Print a contact with json format
         System.out.println("JSON format output: ");
         System.out.println(new Gson().toJson(sortedContacts));
     }
